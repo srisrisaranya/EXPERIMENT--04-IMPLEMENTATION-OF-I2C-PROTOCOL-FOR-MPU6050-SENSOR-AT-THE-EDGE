@@ -2,9 +2,9 @@
 
 ---
 
-### **NAME:**  
-### **DEPARTMENT:**  
-### **ROLL NO:**  
+### **NAME: SARANYA S**  
+### **DEPARTMENT: B.E.CSE-IOT **  
+### **ROLL NO: 212223110044 **  
 ### **DATE OF EXPERIMENT:**  
 
 ---
@@ -79,9 +79,9 @@ ACCEL_XOUT_H = 0x3B
 GYRO_XOUT_H = 0x43
 
 # Initialize I2C
-sda = Pin(20)  # Define your SDA pin
-scl = Pin(21)  # Define your SCL pin
-i2c = I2C(1, scl=scl, sda=sda, freq=400000)  # Use I2C1
+sda = Pin(0)  # Define your SDA pin
+scl = Pin(1)  # Define your SCL pin
+i2c = I2C(0, scl=scl, sda=sda, freq=400000)  # Use I2C1
 
 def mpu6050_init():
     i2c.writeto_mem(MPU6050_ADDR, PWR_MGMT_1, b'\x00')  # Wake up MPU6050
@@ -120,6 +120,10 @@ When the above program is executed, the output on the serial monitor will displa
 ```
 Accel: X=0.02g, Y=-0.01g, Z=1.00g | Gyro: X=0.05°/s, Y=-0.02°/s, Z=0.01°/s
 Accel: X=0.03g, Y=-0.02g, Z=1.01g | Gyro: X=0.06°/s, Y=-0.03°/s, Z=0.02°/s
+
+![WhatsApp Image 2025-09-13 at 15 35 57_dc662bd2](https://github.com/user-attachments/assets/e1fa6b7d-50ac-4136-9938-b886598b478a)
+
+
 ...
 ```
 ---
