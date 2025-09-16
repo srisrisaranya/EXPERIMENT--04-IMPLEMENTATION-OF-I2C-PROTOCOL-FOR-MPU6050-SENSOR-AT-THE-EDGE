@@ -123,12 +123,8 @@ Accel: X=0.03g, Y=-0.02g, Z=1.01g | Gyro: X=0.06°/s, Y=-0.03°/s, Z=0.02°/s
 
 ![EC EXP-04](https://github.com/user-attachments/assets/7e0c1eea-9643-4d0c-a81d-530cf5fa665a)
 
-
-
-
-...
-```
 ---
+```
 
 ## **RESULT:**  
 The **MPU6050 sensor** was successfully interfaced with the **Raspberry Pi Pico**, and real-time **acceleration and gyroscope data** were read and displayed. The sensor values can be used for **motion tracking, tilt detection, and gesture control applications**.
