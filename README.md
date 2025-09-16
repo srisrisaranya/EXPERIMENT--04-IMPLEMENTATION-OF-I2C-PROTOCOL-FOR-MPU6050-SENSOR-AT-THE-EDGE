@@ -66,7 +66,7 @@ The **accelerometer** measures linear acceleration in **X, Y, Z axes**, while th
 ---
 
 ## **PROGRAM (MicroPython)**  
-```python
+```
 from machine import Pin, I2C
 import utime
 
@@ -113,21 +113,17 @@ while True:
     utime.sleep(1)
 ```
 
----
+
 
 ## **OUTPUT:**  
-When the above program is executed, the output on the serial monitor will display real-time acceleration and gyroscope values, such as:
-```
-Accel: X=0.02g, Y=-0.01g, Z=1.00g | Gyro: X=0.05°/s, Y=-0.02°/s, Z=0.01°/s
-Accel: X=0.03g, Y=-0.02g, Z=1.01g | Gyro: X=0.06°/s, Y=-0.03°/s, Z=0.02°/s
 
 ![EC EXP-04](https://github.com/user-attachments/assets/7e0c1eea-9643-4d0c-a81d-530cf5fa665a)
 
----
-```
+
+
 
 ## **RESULT:**  
 The **MPU6050 sensor** was successfully interfaced with the **Raspberry Pi Pico**, and real-time **acceleration and gyroscope data** were read and displayed. The sensor values can be used for **motion tracking, tilt detection, and gesture control applications**.
 
----
+
 
